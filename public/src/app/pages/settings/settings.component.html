@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-md-12">
+    <nb-card>
+      <nb-card-header>
+        Şirket Bilgileri
+      </nb-card-header>
+
+      <nb-card-body>
+        <form [formGroup]="companyInformationForm" *ngIf="settings && settings['companyInformation']">
+          <div class="form-group row">
+            <label for="icao" class="col-sm-1 col-form-label">ICAO</label>
+            <div class="col-sm-11">
+              <input formControlName="icao" id="icao" type="text" class="form-control" required minlength="3" [(ngModel)]="settings['companyInformation'].icao">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="iata" class="col-sm-1 col-form-label">IATA</label>
+            <div class="col-sm-11">
+              <input formControlName="iata" id="iata" type="text" class="form-control" required minlength="2" [(ngModel)]="settings['companyInformation'].iata">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-success" [disabled]="companyInformationForm.invalid" (click)="save(settings['companyInformation'])">Kaydet</button>
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>

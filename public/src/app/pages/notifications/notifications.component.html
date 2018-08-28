@@ -1,0 +1,85 @@
+<nb-card>
+  <nb-card-header>
+    Bildirim Gönder
+  </nb-card-header>
+
+  <nb-card-body>
+    <form [formGroup]="messageForm">
+      <div class="form-group">
+        <select formControlName="topic" class="form-control" [(ngModel)]="message.topic">
+          <option value="STANDARD">Pilotlar & Ziyaretçiler</option>
+          <option value="STANDARD_PILOT">Pilotlar</option>
+          <option value="STANDARD_GUEST">Ziyaretçiler</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input formControlName="url" type="text" placeholder="URL" class="form-control" [(ngModel)]="message.data.URL">
+      </div>
+      <div class="form-group">
+        <input formControlName="title" type="text" placeholder="Başlık" class="form-control" required [(ngModel)]="message.notification.title">
+      </div>
+      <div class="form-group">
+        <textarea formControlName="body" rows="5" placeholder="İçerik" class="form-control" [(ngModel)]="message.notification.body"></textarea>
+      </div>
+      <!--<div class="form-group">
+        <select formControlName="language" class="form-control" [(ngModel)]="message.topic">
+          <option value="STANDARD">Pilotlar & Ziyaretçiler</option>
+          <option value="STANDARD_PILOT">Pilotlar</option>
+          <option value="STANDARD_GUEST">Ziyaretçiler</option>
+        </select>
+      </div>-->
+      <div class="form-group">
+        <div class="row">
+          <div class="col-sm-2">
+            <label>Dil</label>
+            <select formControlName="language" class="form-control" [(ngModel)]="language">
+              <option value="tr">Türkçe</option>
+              <option value="en">İngilizce</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!--<div class="form-group">
+        <label>Öncelik</label>
+        <select formControlName="priority" class="form-control" [(ngModel)]="message.android.priority">
+          <option value="normal">Normal</option>
+          <option value="high">Yüksek</option>
+        </select>
+      </div>-->
+      <div class="form-group">
+        <div class="row">
+          <div class="col-sm-1">
+            <label>Öncelik</label>
+            <select formControlName="priority" class="form-control" [(ngModel)]="message.android.priority">
+              <option value="normal">Normal</option>
+              <option value="high">Yüksek</option>
+            </select>
+          </div>
+          <div class="col-sm-1">
+            <label>Ses</label>
+            <select formControlName="sound" class="form-control" [(ngModel)]="message.android.notification.sound">
+              <option value="default">Etkin</option>
+              <option [ngValue]="null">Devre dışı</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Geçerlilik bitiş tarihi</label>
+        <div class="row">
+          <div class="col-sm-1">
+            <select formControlName="ttl" class="form-control" [(ngModel)]="message.android.ttl">
+              <option *ngFor="let period of selectedPeriod" [ngValue]="period.value">{{period.name}}</option>
+            </select>
+          </div>
+          <div class="col-sm-1">
+            <select class="form-control" [(ngModel)]="selectedPeriod" [ngModelOptions]="{standalone: true}">
+              <option *ngFor="let period of periods" [ngValue]="period.value">{{period.name}}</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-success" [disabled]="messageForm.invalid" (click)="send()">Gönder</button>
+    </form>
+  </nb-card-body>
+</nb-card>

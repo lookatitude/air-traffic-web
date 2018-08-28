@@ -1,0 +1,97 @@
+{
+  // Example:
+  //
+  // "indexes": [
+  //   {
+  //     "collectionId": "widgets",
+  //     "fields": [
+  //       { "fieldPath": "foo", "mode": "ASCENDING" },
+  //       { "fieldPath": "bar", "mode": "DESCENDING" }
+  //     ]
+  //   }
+  // ]
+  "indexes": [
+    {
+      "collectionId": "clients",
+      "fields": [
+        {
+          "fieldPath": "type",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "flightPlan",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "messages",
+      "fields": [
+        {
+          "fieldPath": "to",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "mode": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "news",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "mode": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "news",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "constant",
+          "mode": "DESCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "mode": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "surveys",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "mode": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "users",
+      "fields": [
+        {
+          "fieldPath": "type",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "mode": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

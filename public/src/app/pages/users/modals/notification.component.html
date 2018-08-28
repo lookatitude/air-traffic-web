@@ -1,0 +1,62 @@
+<div class="modal-header">
+  <span>Bildirim Gönder ({{user.callsign}} - {{user.firstName}} {{user.lastName}})</span>
+  <button class="close" aria-label="Close" (click)="closeModal()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="messageForm">
+    <div class="form-group">
+      <input formControlName="url" type="text" placeholder="URL" class="form-control" [(ngModel)]="message.data.url">
+    </div>
+    <div class="form-group">
+      <input formControlName="title" type="text" placeholder="Başlık" class="form-control" required [(ngModel)]="message.notification.title">
+    </div>
+    <div class="form-group">
+      <textarea formControlName="body" rows="5" placeholder="İçerik" class="form-control" [(ngModel)]="message.notification.body"></textarea>
+    </div>
+    <!--<div class="form-group">
+      <label>Öncelik</label>
+      <select formControlName="priority" class="form-control" [(ngModel)]="message.android.priority">
+        <option value="normal">Normal</option>
+        <option value="high">Yüksek</option>
+      </select>
+    </div>-->
+    <div class="form-group">
+      <div class="row">
+        <div class="col-sm-2">
+          <label>Öncelik</label>
+          <select formControlName="priority" class="form-control" [(ngModel)]="message.android.priority">
+            <option value="normal">Normal</option>
+            <option value="high">Yüksek</option>
+          </select>
+        </div>
+        <div class="col-sm-2">
+          <label>Ses</label>
+          <select formControlName="sound" class="form-control" [(ngModel)]="message.android.notification.sound">
+            <option value="default">Etkin</option>
+            <option [ngValue]="null">Devre dışı</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Geçerlilik bitiş tarihi</label>
+      <div class="row">
+        <div class="col-sm-2">
+          <select formControlName="ttl" class="form-control" [(ngModel)]="message.android.ttl">
+            <option *ngFor="let period of selectedPeriod" [ngValue]="period.value">{{period.name}}</option>
+          </select>
+        </div>
+        <div class="col-sm-2">
+          <select class="form-control" [(ngModel)]="selectedPeriod" [ngModelOptions]="{standalone: true}">
+            <option *ngFor="let period of periods" [ngValue]="period.value">{{period.name}}</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-success" [disabled]="messageForm.invalid" (click)="send()">Gönder</button>
+</div>

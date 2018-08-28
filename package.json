@@ -1,0 +1,19 @@
+{
+  "name": "air-traffic-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-express-server": "^0.5.4",
+    "grunt-shell": "^2.1.0",
+    "grunt-wait": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Onur Yıldırım",
+  "license": "ISC"
+}

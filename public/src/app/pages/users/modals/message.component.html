@@ -1,0 +1,19 @@
+<div class="modal-header">
+  <span>Mesaj Yaz ({{user.callsign}} - {{user.firstName}} {{user.lastName}})</span>
+  <button class="close" aria-label="Close" (click)="closeModal()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="userMessageForm">
+    <div class="form-group">
+      <input formControlName="subject" type="text" placeholder="Konu" class="form-control" required [(ngModel)]="userMessage.subject">
+    </div>
+    <div class="form-group">
+      <textarea formControlName="body" rows="5" placeholder="Mesaj" class="form-control" required [(ngModel)]="userMessage.body"></textarea>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-success" [disabled]="userMessageForm.invalid" (click)="send()">Gönder</button>
+</div>

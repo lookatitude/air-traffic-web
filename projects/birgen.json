@@ -1,0 +1,47 @@
+{
+  "test": {
+    "name": "birgen-virtual-airlines-test",
+    "accountKey": {
+      "type": "service_account",
+      "project_id": "birgen-virtual-airlines-test",
+      "private_key_id": "b7084e6b93266578a2dab01f4fcce1e23e0a396d",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwNoibNLvvUb6C\n/dqZ1bhbeiypMsr9o8KGnGYhsbPy5uKBU7sqJQ0wJKN5SwpMpdrKTF61eMVZMX2k\nRqMCv4acS5HIYoNdNxhR9ldwxnmZCOwsLkpn6hjkev/x3XOVliRaOvbokeSC8Bt2\ngo3mKAbh+C9EiupQFk5SUSdnqLJMFMMq5C+BqIiDDnrKtF20RwNAXkNtkCaegsao\n7LjOBCBZBqD0L9913LMLGKPaah+ElcYmEE/BOQJ7Ys/sAUuVVkXaGb2JQcp0Nf0U\nB0D69s+kwIThknC7azbFr1V/FOuk6zBdTI52oFGG2K3eGTGMHqmsvPD9ryYq2uBX\nTLVX1NLVAgMBAAECggEAE0wVj7Gptx6jl2LHcrtV8iaiB3F5i2dIoUc1ZBE63Knu\nOi16PLZMCG6qvFi8awJqwGa2pHbyXb8uvDPEHEPvMOSRtXkcW7Px5N/uWXpSzLCO\ndJQpL9ISIctahhkzVDlaB8uXSIbZmIFE8KiBc6gEgPCV9JKl8FlRAHDEuPRfejdI\n4ARgn1C6QSzwUKZ7i7MYepeRl9USv445D/JIo95Rtw4vHI2H51KMPSyI7CqD1z9K\n2rYbmdzGmw0pSYJx+RocM7+DCvxo67Arl3dVr6qMLvjdpmRUxfxLPDvklkMfvEfZ\nVWVuaPrNrUTFmFqlsRp49l3xhFnXgx0ZxIcPYgH+gQKBgQD0qjHlEKPFvXvzLORh\ny0VfyNpAoAbm9xoFXK363HHm3jMawys6vdun0StuJz1KpVQNzhNVPKC2nxBSkahl\nvJKIvKF/tV9NBOQMj3n+h4CkTFBgsy2IoT5jBb0LTUjjwAQ8o74Q1+wneU86b3bW\nCAIOCxyxKw0bL3cbkQT+OIiVIQKBgQC4YHpWlH9NB7t/GymLC55dLGTdaCzhLb3X\nKD4B9b74DG7JncBkMqfHW22m9hNT3S7iCo0SfSmGnU1yvDK/+1xt064AvmVB+GUM\nY30hq7Q9VwuRG0/Izw2AXxBCMvLgAE+n4fqBPlpTNoFSt/9q5gTHQsi9AyF1kGUg\n2cwozGyTNQKBgEI7NGiK+ZqU8dHhbC2hBjWovJRT/apWZ//dl+dZ96eErRbokHJF\nZQnn0Lbv/mKPoNJf39HqKKNnKdcAQTLROmWzkpBsu9Cwqz9PM7oYWlWfpv6WYpQi\n+i16JzPBByNIHp1/wfrzSKVi7HSoKeZEorHEhk7blZ+vWLHorw5WpXqhAoGBAK+Q\nDm3K0LzElCCf+JrR4WXPE+xPegygxZfOVdz/52vCSuvoLn46TdBimrLUteqxPic2\n7MWiMJxhxJFv6tMrwgNCAPnsUfbTU0TMpyYcnW+bJwRxATOxFKYb3xtp8CKjqTWu\n1B2lBdUenV3qnmdnxz0FtqdkB8QuTl1Nhj2DCg/RAoGBAKw4qimrGWx7Lo+iV1mR\ntw4XRF1f+nZaF/Yn1LfRMN2tMEgMnINHJZCJspKqtI86igyo1YZtpHn2Qe2TGoIC\newcmIxM1izhdc4V2SedJqvza1RzqIgA7M0mvVZmaU7FmfvrkLTxhn1PDMZCJ6B+f\nC0yu1aCIQcA4QR8Qv8kZS4mi\n-----END PRIVATE KEY-----\n",
+      "client_email": "firebase-adminsdk-ydioq@birgen-virtual-airlines-test.iam.gserviceaccount.com",
+      "client_id": "115170744958417567841",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://accounts.google.com/o/oauth2/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ydioq%40birgen-virtual-airlines-test.iam.gserviceaccount.com"
+    }
+  },
+  "dev": {
+    "name": "birgen-virtual-airlines-dev",
+    "accountKey": {
+      "type": "service_account",
+      "project_id": "birgen-virtual-airlines-dev",
+      "private_key_id": "1a4833d9c7f2f341ba1f895ee2375ddf205199ce",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDvkKwEH8MWQfHm\nD7lsvTQrj2E3w3h0R4DLJu/mIh+0VJfBHR7uV8WlKcy9MWVGh1a7dRrsu1m6VMD1\n0lt0vRLGFJOug3SQybH2lIbaFb8T30KRmgI4w1rvl7n/BFVXoAi8rm+z/wQRwEpi\nS0RJCFvXEpFyO+jPLbORrCXUXIZu5u9LAnpFHfu9avVb0GY1q7MKJ1p4sYUh1BUd\nJHAsKELWGE4gAJDcn0Qe9cVVDT98HsloUdRxWwIyRyiZFNOD58PcYm9IRPKp2oyL\n+KjbU/NIuRdOQiMBZDuDYQv7SSvWKuWno0sRu5psiFrzm3uyoa4Z6LYVp1pMJNdC\nmxz09rZ1AgMBAAECggEAFGsSejSB0mkS9r6S2YWDx42sJc5Teyen/simDEmOxbYr\nDALRItPYzOOz51EpNlptJkOMJK6wLl0waBNCh7/gtIDG+IoMOpXyRNeyaa6OT2GJ\nQTMs6s0duEuIhweFxZbmf7xnWWJMJL4sqNWM76OWfk1/F4srI9NbmXggbknnjFaY\nxN+10aHesrIdK79rdt97Sm6wbdw7m+nzXomECMOtUbpqX9/baoRG6wX3B6Clu4R7\ntpjxLe9Kw3VWq3iFXL6Cw1xRd6fgBDDrOqJGg5KuT3jCHZweql6Zyecjlfrf5ZRa\nw04rACUw05Laxup4jf5XmFpCMKoFjq2eKkV3UKjiUQKBgQD/hFO2lY1kH8XG1I7B\nyrEoi6A2A/8c0KG4jCM9uK78chnMero3cz/Dm5p3jgRk/5YCjXFLLYxTWNJHUtZS\n78TqOEpDSc7yuY+GiXiBt7eUxpm8L9eaHUhJSbUvAhx4jRSw6fiHn59sqr39wEsz\nCKbxujCvhne/xsgCbqT8kGjMhQKBgQDwBJ/E08wFEYaeX6Gl9nTAyO9v3kucM9bb\n0QY2WGahIPG58nGFJst4nc5zmF7ff1TfyIax5k1Zvc3sbnanHDyhNMR1R1+pJ6AZ\ny3r6iobSkW1Go3DncNId5udust8u2QTGSuL+1AfO5dbzlQligLajdLRkPcH0VyJV\n28fyq7KdMQKBgAwlEwGLrDPFGtZvhfWKF8+Qi2Xl3LtW40jtSEOHwrF3DujcMHuw\nO6ilfbsPAgB28X9fj7H+ETxo7V28fzlj8h0b3dPC71Y0IbFIWXT48X3dzrLWJ05I\n9AWfvj/kvsuwEPqztD9mA+LbXrpv6GMdlynIKsY9AvYXkawj7C2hA4otAoGARO+f\nD8IhG+ePuZcP74HcwK41jvTS1JdTA6mCVkOHnom+w8BteGfPEuKINE00Go8QyoFm\nplvWJYtNRLXpYE/M3iQwtNp+EDBwXFhEBweYd4wLTbmNqPuPbcUu/W1kiqkMJQPH\nNJejcnozBZztqBv92O6hDRVryojoNK6+O+WylFECgYEA0DxQWJdZMBAEfW32VpiF\n8hRZSb7OvWACn3EH+7VyhcUXFoX+39R1rF2jaYpX5H+y4eZRA1C1kGAmA1taoQSq\n1GJgeBY5y+HUvAfdvEB4Dkco7zgF1mGOoaiMtKYTRM69i5Qt0ijoMyPh6OBTSFmF\nX4HJYo8DMaPN3t2AQXHN70M=\n-----END PRIVATE KEY-----\n",
+      "client_email": "firebase-adminsdk-v9hvx@birgen-virtual-airlines-dev.iam.gserviceaccount.com",
+      "client_id": "112834442386826583078",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://accounts.google.com/o/oauth2/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-v9hvx%40birgen-virtual-airlines-dev.iam.gserviceaccount.com"
+    }
+  },
+  "prod": {
+    "name": "birgen-virtual-airlines",
+    "accountKey": {
+      "type": "service_account",
+      "project_id": "birgen-virtual-airlines",
+      "private_key_id": "6986e56e87a43e683f68aef593cdf9da21c6ce13",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDp41PK7Awf0kpK\nD7X/7Ppki3iKa2X9AAzwTXvsxlpv0ro2q3LeSm7PZWQOR+XZgkPaeJNGp3nomSwE\nwVoWCeCH2Rs/zx/jtcHqH3amHKxkef67pXSuW0ZGlnbB6l2G+jJFxzXyQU+TtiuN\n/csON2ylk2r0jqrc/bc89x4+1b0bU3SJ+MdAlx3w31zuhIzZCfdMWgYrBKrQkV/h\nn1+3EGXjFU7zAxcvDtnZjHPKcTxeBaH73yi8OGFvOJP/aPRSfvDS2HOKmkCbI6mI\ngHWDGaeOG2sTnM06H2B+EzjkAkEciwfbAjFpw3376t8KPspEQ6BqL49E5lTQXW4l\nVRgPJ6rZAgMBAAECggEADx2CG81XfaYuGoBoOn4kZhaq/dJLb0DvYe3pm8RR5R1d\n3wydFtQ1Bxg+K1VM+6dmHs3HqG6uyHAMHtHA5a24iG8CfZ3M9mVkfwhbhAhUWwX7\nU9sxVQqD2l0wMMxzRB1FRHct+4lqM1lrK5KcUQxJ7Dim79+MfhqAThaJkNwCJaxs\n04oBkWp+HHnaZJtrOLhU8NWi/dJo7YnZ1gvAgkI0Oc+i8wp4IOwAGx3XwEg12E6D\nfeO+Tq1kt89kwr/PqNUUqlQI5Ywg2tekhKdFlOcJ8E3PxIj2T5cC+GNExM2kwZZj\nVI2HqQiz/waDRekJ6Qbh4fnJcIv0Ai+dqOniq28lhQKBgQD1Grbm1xvOI3GLBFrI\n+KTN2GKl/e6GiE/SNM3lfNN7z7JutJ0RSsLyk/ylIN0QI/LP1cHSS4Z20a9WHU2l\nYsVQbqWn8n4Aa6nXv2LZdOrNo2OCUgpUWcmxj3zl0+XQ35xb4RS1gU7Ib6fbyn1M\nASK/A6caYau+tfjQtE8+hzmg1wKBgQD0SPiHV4z3KKO4BG5RWlwXgOPvh/fpRNYW\nYQkfu1AkZvmcZd3b6J3NSUnDDMGCZjk59ykQUz24pBTUlT/HceYL0nbmoBZZ8rBE\n066Da6Bll4QCMZnwrVZvayhhoy4aMIhlLVAHhXPcdAqvnmowLZZHOBvQxufd6bkQ\nJ4P1ePmrzwKBgQDacjG6sNKGOQ6T8JCc9wWitAzPle6FFm3VkdxDgKnXefe0NOKb\nq77thbkwzoZXQULBuuggbdFsilsza7BtCweCNOsNMNDdvRbFQzxtRIeUON+SIV41\naUSaLKELEHyNWQ240XSsg49cki7Pc7uSBp0aEr5Wg+AWe4ZDM8BAoTJaRwKBgQCd\nXmDUd381PbXydtBGkkpfTcYI6fO4D4NHWW2SRo4DVV8Z9Lmu0DTQKZVeFNqYUZgu\nEl4eyTEqwHE23Yr/xg0nsoasXZbojSImxKNYwD3NFIWTEDcWR+Q11Ldn5sJtVrSX\nUVCL99nCu/KiXhAUR1nXOXsZzPlUCRwSHxKwUSWuGwKBgQCNdxqpSxm+6tqqEv87\nqXpUKuhzkthN99k//iq7WVXb+Mu9BQTem9zmKlAJZsChGL2kt0UGz23KgOOow1fn\nzq6NKGiHLHml0HxbH2UIbTImi2yoelvQArX+FuXPleLeUHOkshUQfwzZU+0sH1LJ\n6dHhI+rBDQmt7hke6GtWBjt+DA==\n-----END PRIVATE KEY-----\n",
+      "client_email": "firebase-adminsdk-p0jiy@birgen-virtual-airlines.iam.gserviceaccount.com",
+      "client_id": "104478522225607203015",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-p0jiy%40birgen-virtual-airlines.iam.gserviceaccount.com"
+    }
+  }
+}
